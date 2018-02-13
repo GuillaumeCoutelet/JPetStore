@@ -20,6 +20,7 @@ public class PetStoreTest {
 	
 	@Before
 	public void setUp() {
+		//COmmentaire
 		browser = System.getProperty("browser");
 
 		if (browser.equals("firefox")) {
