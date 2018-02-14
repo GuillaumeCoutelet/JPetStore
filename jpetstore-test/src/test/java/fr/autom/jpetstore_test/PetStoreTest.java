@@ -37,7 +37,7 @@ public class PetStoreTest {
 			driver = new ChromeDriver();
 		}
 
-		driver.get("http://localhost:8085/jpetstore/");
+		driver.get("http://www.google.fr");
 	}
 
 	@Test
