@@ -38,6 +38,8 @@ public class PetStoreTest {
 		}
 
 		driver.get("http://localhost:8085/jpetstore/actions/Catalog.action");
+		driver.get("http://localhost:8085/jpetstore/actions/Catalog.action");
+		driver.get("http://localhost:8085/jpetstore/actions/Catalog.action");
 	}
 
 	@Test
