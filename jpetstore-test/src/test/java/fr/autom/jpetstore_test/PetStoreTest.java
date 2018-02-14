@@ -28,6 +28,9 @@ public class PetStoreTest {
 		browser = System.getProperty("browser");
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("browserName", browser);
+		if (browser.equals("firefox")) {
+			caps.setCapability("marionette", true);
+		}
 		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
 		
 		
